@@ -1,0 +1,27 @@
+{
+  "name": "2021-hackathon-unified-ui",
+  "version": "1.0.0",
+  "description": "Monorepo with React, React-Native and React-Native-Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwin-signpost/2021-hackathon-unified-ui.git"
+  },
+  "keywords": [],
+  "author": "esanchez@signpost.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwin-signpost/2021-hackathon-unified-ui/issues"
+  },
+  "homepage": "https://github.com/edwin-signpost/2021-hackathon-unified-ui#readme",
+  "workspaces": {
+      "packages": [
+          "app",
+          "web",
+          "common"
+    ]
+  }
+}
